@@ -1,0 +1,66 @@
+[24-Sep-2020 16:34:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/plugin-install.php on line 183
+[24-Sep-2020 16:34:56 UTC] PHP Stack trace:
+[24-Sep-2020 16:34:56 UTC] PHP   1. {main}() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:0
+[24-Sep-2020 16:34:56 UTC] PHP   2. require_once() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:10
+[24-Sep-2020 16:34:56 UTC] PHP   3. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/admin.php:259
+[24-Sep-2020 16:34:56 UTC] PHP   4. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:34:56 UTC] PHP   5. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:34:56 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:287
+[24-Sep-2020 16:34:56 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[24-Sep-2020 16:34:56 UTC] PHP   8. TGM_Plugin_Activation->get_download_url() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:757
+[24-Sep-2020 16:34:56 UTC] PHP   9. TGM_Plugin_Activation->get_wp_repo_download_url() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:1513
+[24-Sep-2020 16:34:56 UTC] PHP  10. TGM_Plugin_Activation->get_plugins_api() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:1533
+[24-Sep-2020 16:34:56 UTC] PHP  11. plugins_api() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:1558
+[24-Sep-2020 16:34:56 UTC] PHP  12. trigger_error() /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/plugin-install.php:183
+[24-Sep-2020 16:35:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/mieone/Downloads/ecommerce/app/public/wp-includes/update.php on line 607
+[24-Sep-2020 16:35:17 UTC] PHP Stack trace:
+[24-Sep-2020 16:35:17 UTC] PHP   1. {main}() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:0
+[24-Sep-2020 16:35:17 UTC] PHP   2. require_once() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:10
+[24-Sep-2020 16:35:17 UTC] PHP   3. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/admin.php:259
+[24-Sep-2020 16:35:17 UTC] PHP   4. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:35:17 UTC] PHP   5. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:35:17 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:287
+[24-Sep-2020 16:35:17 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[24-Sep-2020 16:35:17 UTC] PHP   8. Plugin_Upgrader->install() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:806
+[24-Sep-2020 16:35:17 UTC] PHP   9. Plugin_Upgrader->run() /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/class-plugin-upgrader.php:137
+[24-Sep-2020 16:35:17 UTC] PHP  10. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/class-wp-upgrader.php:847
+[24-Sep-2020 16:35:17 UTC] PHP  11. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:35:17 UTC] PHP  12. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:35:17 UTC] PHP  13. wp_update_themes() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:285
+[24-Sep-2020 16:35:17 UTC] PHP  14. trigger_error() /home/mieone/Downloads/ecommerce/app/public/wp-includes/update.php:607
+[24-Sep-2020 16:35:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/misc.php:1281) in /home/mieone/Downloads/ecommerce/app/public/wp-includes/pluggable.php on line 1296
+[24-Sep-2020 16:35:19 UTC] PHP Stack trace:
+[24-Sep-2020 16:35:19 UTC] PHP   1. {main}() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:0
+[24-Sep-2020 16:35:19 UTC] PHP   2. require_once() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:10
+[24-Sep-2020 16:35:19 UTC] PHP   3. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/admin.php:259
+[24-Sep-2020 16:35:19 UTC] PHP   4. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:35:19 UTC] PHP   5. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:35:19 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:287
+[24-Sep-2020 16:35:19 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[24-Sep-2020 16:35:19 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:818
+[24-Sep-2020 16:35:19 UTC] PHP   9. activate_plugin() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:957
+[24-Sep-2020 16:35:19 UTC] PHP  10. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/plugin.php:699
+[24-Sep-2020 16:35:19 UTC] PHP  11. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:35:19 UTC] PHP  12. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:35:19 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:287
+[24-Sep-2020 16:35:19 UTC] PHP  14. wp_safe_redirect() /home/mieone/Downloads/ecommerce/app/public/wp-content/plugins/ocean-extra/includes/wizard/wizard.php:45
+[24-Sep-2020 16:35:19 UTC] PHP  15. wp_redirect() /home/mieone/Downloads/ecommerce/app/public/wp-includes/pluggable.php:1404
+[24-Sep-2020 16:35:19 UTC] PHP  16. header() /home/mieone/Downloads/ecommerce/app/public/wp-includes/pluggable.php:1296
+[24-Sep-2020 16:35:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/misc.php:1281) in /home/mieone/Downloads/ecommerce/app/public/wp-includes/pluggable.php on line 1299
+[24-Sep-2020 16:35:19 UTC] PHP Stack trace:
+[24-Sep-2020 16:35:19 UTC] PHP   1. {main}() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:0
+[24-Sep-2020 16:35:19 UTC] PHP   2. require_once() /home/mieone/Downloads/ecommerce/app/public/wp-admin/themes.php:10
+[24-Sep-2020 16:35:19 UTC] PHP   3. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/admin.php:259
+[24-Sep-2020 16:35:19 UTC] PHP   4. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:35:19 UTC] PHP   5. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:35:19 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:287
+[24-Sep-2020 16:35:19 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[24-Sep-2020 16:35:19 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:818
+[24-Sep-2020 16:35:19 UTC] PHP   9. activate_plugin() /home/mieone/Downloads/ecommerce/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:957
+[24-Sep-2020 16:35:19 UTC] PHP  10. do_action() /home/mieone/Downloads/ecommerce/app/public/wp-admin/includes/plugin.php:699
+[24-Sep-2020 16:35:19 UTC] PHP  11. WP_Hook->do_action() /home/mieone/Downloads/ecommerce/app/public/wp-includes/plugin.php:478
+[24-Sep-2020 16:35:19 UTC] PHP  12. WP_Hook->apply_filters() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 16:35:19 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() /home/mieone/Downloads/ecommerce/app/public/wp-includes/class-wp-hook.php:287
+[24-Sep-2020 16:35:19 UTC] PHP  14. wp_safe_redirect() /home/mieone/Downloads/ecommerce/app/public/wp-content/plugins/ocean-extra/includes/wizard/wizard.php:45
+[24-Sep-2020 16:35:19 UTC] PHP  15. wp_redirect() /home/mieone/Downloads/ecommerce/app/public/wp-includes/pluggable.php:1404
+[24-Sep-2020 16:35:19 UTC] PHP  16. header() /home/mieone/Downloads/ecommerce/app/public/wp-includes/pluggable.php:1299
